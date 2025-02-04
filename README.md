@@ -36,7 +36,7 @@ MAIL_PASS=your-email-password
 
 ### Configuring Mail Settings
 1. Use a valid SMTP email provider such as Gmail, Outlook, or a custom SMTP server.
-2. If using Gmail, enable "Less secure app access" or generate an app password (see more about it here)[https://support.google.com/mail/answer/185833?hl=en].
+2. If using Gmail, enable "Less secure app access" or generate an app password [see more about it here](https://support.google.com/mail/answer/185833?hl=en).
 3. Replace `MAIL_ADRESS` and `MAIL_PASS` with your email credentials.
 4. Ensure the `EMAIL_FROM` and `ALERT_EMAIL` are correctly set to send and receive alerts.
 
