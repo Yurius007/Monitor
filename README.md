@@ -38,6 +38,12 @@ MAIL_PASS=your-email-password
 2. If using Gmail, enable "Less secure app access" or generate an app password [see more about it here](https://support.google.com/mail/answer/185833?hl=en).
 3. Replace `MAIL_ADDRESS` and `MAIL_PASS` with your email credentials.
 
+## Usage
+Run the service monitor with:
+```sh
+node monitor.js
+```
+
 ## Docker setup instructions
 1. Go to the project directory:
    ```bash
@@ -52,9 +58,3 @@ MAIL_PASS=your-email-password
    ```bash
    docker run --platform linux/amd64 -d --name monitor-app --env-file .env  yurius007/node-monitor-app:v1.0 # For MacOS
    ```
-
-## Usage
-Run the service monitor with:
-```sh
-node monitor.js
-```
