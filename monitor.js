@@ -6,11 +6,11 @@ require('dotenv').config();
 const PING_URL = process.env.PING_URL || 'https://example.com'; // URL to ping
 const INTERVAL = process.env.PING_INTERVAL || 10000; // Ping interval in ms (default: 10s)
 const EMAIL_TO = process.env.ALERT_EMAIL; // Alert email address
-const EMAIL_FROM = process.env.EMAIL_FROM; // Sender email
+const EMAIL_FROM = process.env.MAIL_ADDRESS; // Sender email
 const MAIL_CONFIG = {
     service: 'gmail',
     auth: {
-        user: process.env.MAIL_ADRESS,
+        user: process.env.MAIL_ADDRESS,
         pass: process.env.MAIL_PASS
     }
 };
