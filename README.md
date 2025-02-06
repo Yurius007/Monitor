@@ -47,7 +47,7 @@ node monitor.js
 ## Docker setup instructions
 1. Go to the project directory:
    ```bash
-   cd Ethertrac
+   cd Monitor
    ```
 2. Make sure you created `.env` file with right configuration.
 3. Pull image and run docker container:
