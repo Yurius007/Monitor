@@ -15,8 +15,8 @@ This Node.js application pings a given endpoint at a predefined interval. If the
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/service-monitor.git
-   cd service-monitor
+   git clone https://github.com/Yurius007/Monitor.git
+   cd Monitor
    ```
 2. Install dependencies:
    ```sh
